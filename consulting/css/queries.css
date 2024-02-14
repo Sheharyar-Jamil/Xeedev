@@ -29,7 +29,11 @@
   }
 
   .service-title {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+  }
+
+  .service-content p {
+    font-size: 1.4rem;
   }
 }
 
@@ -46,7 +50,11 @@
   }
 
   .service-title {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+  }
+
+  .service-content p {
+    font-size: 1.4rem;
   }
 
   .heading-tertiary {
