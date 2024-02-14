@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Services</title>
+    <link rel="icon" href="consulting/img/favicon.ico" />
+    <!-- Bundle -->
+    <link rel="stylesheet" href="vendor/css/bundle.min.css" />
+    <!-- Plugin Css -->
+    <link rel="stylesheet" href="vendor/css/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="vendor/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="vendor/css/swiper.min.css" />
+
+    <link rel="stylesheet" href="vendor/css/cubeportfolio.min.css" />
+    <!-- Revolution Slider CSS Files -->
+    <link rel="stylesheet" href="consulting/css/navigation.css" />
+    <link rel="stylesheet" href="consulting/css/settings.css" />
+    <!-- Slick CSS Files -->
+    <link rel="stylesheet" href="vendor/css/slick.css" />
+    <link rel="stylesheet" href="vendor/css/slick-theme.css" />
+    <!-- Select -->
+    <link rel="stylesheet" href="vendor/css/select2.min.css" />
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="consulting/css/style.css" />
+    <!-- Custom Style CSS File -->
+    <link rel="stylesheet" href="consulting/css/custom.css" />
+    <!-- Service page CSS file -->
+    <link rel="stylesheet" href="consulting/css/page.css" />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-top-default navbar-expand-lg static-nav transparent-bg nav-bottom-line"
+    >
+      <div class="container">
+        <a class="logo" href="index.html">
+          <img
+            src="consulting/img/logo.png"
+            alt="logo"
+            title="Logo"
+            class="logo-default"
+          />
+          <img
+            src="consulting/img/logo2.png"
+            alt="logo"
+            title="Logo"
+            class="logo-scrolled"
+          />
+        </a>
+        <div class="collapse navbar-collapse d-none d-lg-block">
+          <ul class="nav navbar-nav ml-auto mr-4">
+            <li class="nav-item">
+              <a href="index.html" class="link">home</a>
+            </li>
+            <li class="nav-item">
+              <a href="aboutus.html" class="link">about us</a>
+            </li>
+            <li class="nav-item">
+              <a href="#testimonials" class="link">testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a href="services.html" class="link">our services</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section
+      id="ourservices"
+      class="bg-light-gray half-section p-0 section-content"
+    >
+      <h2 class="d-none">heading</h2>
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col-lg-6 col-md-12 p-0">
+            <div class="owl-carousel owl-theme owl-split">
+              <div class="item">
+                <div class="image split-blog-scale">
+                  <img
+                    alt="request"
+                    src="consulting/img/split-request.jpg"
+                    class="about-img"
+                  />
+                </div>
+              </div>
+              <div class="item">
+                <div class="image split-blog-scale">
+                  <img
+                    alt="request"
+                    src="consulting/img/split-request2.jpg"
+                    class="about-img"
+                  />
+                </div>
+              </div>
+              <div class="item">
+                <div class="image split-blog-scale">
+                  <img
+                    alt="request"
+                    src="consulting/img/split-request3.jpg"
+                    class="about-img"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-6 col-md-12 split-box-container-setting text-center p-md-0"
+          >
+            <div class="split-container-setting">
+              <div
+                class="main-title text-center text-lg-left mb-lg-4 wow fadeIn"
+                data-wow-delay="300ms"
+              >
+                <h5>Have any questions?</h5>
+                <h2 class="mb-2rem">Request a <b>call back</b></h2>
+                <h5>I would like to discuss:</h5>
+              </div>
+
+              <div class="request-form">
+                <form class="request-form-outer" id="contact-form-data">
+                  <div class="row">
+                    <div class="col-sm-12" id="result"></div>
+                    <div class="col-md-12 col-sm-12">
+                      <div class="request-form-textfield pb-4">
+                        <select
+                          class="form-control"
+                          title="service"
+                          name="service"
+                          id="services"
+                          required
+                        >
+                          <option value="0">Select Service</option>
+                          <option value="1">
+                            Frontend Website Development
+                          </option>
+                          <option value="2">Backend Website Development</option>
+                          <option value="3">UX/UI Web/Mobile Designs</option>
+                          <option value="3">
+                            Web Applications Development
+                          </option>
+                          <option value="3">
+                            Mobile Applications Development
+                          </option>
+                          <option value="3">Cloud</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-md-12 col-sm-12">
+                      <div class="request-form-textfield pb-4">
+                        <input
+                          type="text"
+                          placeholder="Name"
+                          class="form-control mb-0"
+                          required=""
+                          id="name"
+                          name="userName"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                      <div class="request-form-textfield pb-4">
+                        <input
+                          type="tel"
+                          placeholder="Contact No"
+                          class="form-control mb-0"
+                          required=""
+                          id="phone"
+                          name="userPhone"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                      <div class="request-form-textfield pb-4">
+                        <input
+                          type="email"
+                          placeholder="Email"
+                          class="form-control mb-0"
+                          required=""
+                          id="email"
+                          name="userEmail"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-lg-12 pt-xs-25px text-lg-left text-center">
+                      <a
+                        href="javascript:void(0)"
+                        class="btn-setting btn-scale btn-blue text-white contact_btn"
+                        >request now</a
+                      >
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Request Boxes Start -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-sm-6 col-12">
+            <div class="process-box text-sm-left mb-4 mb-lg-0">
+              <span class="pro-step d-inline-block"
+                ><i class="fa fa-server"></i
+              ></span>
+              <h5
+                class="font-weight-normal color-black mt-25px mb-15px text-capitalize"
+              >
+                setup meeting
+              </h5>
+              <p class="font-weight-normal">
+                Lorem dapibus, tortor eget turpis auctor, convallis odio ac.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 col-12">
+            <div class="process-box text-sm-left mb-4 mb-lg-0">
+              <span class="pro-step d-inline-block"
+                ><i class="fa fa-layer-group"></i
+              ></span>
+              <h5
+                class="font-weight-normal color-black mt-25px mb-15px text-capitalize"
+              >
+                consultancy
+              </h5>
+              <p class="font-weight-normal">
+                Etiam luctus, lacus maximus elementum dapibus felis.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 col-12">
+            <div class="process-box text-sm-left mb-4 mb-sm-0">
+              <span class="pro-step d-inline-block"
+                ><i class="fa fa-file"></i
+              ></span>
+              <h5
+                class="font-weight-normal color-black mt-25px mb-15px text-capitalize"
+              >
+                execution
+              </h5>
+              <p class="font-weight-normal">
+                Maecenas fringilla molestie elit, maximus dui eleifend quis.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 col-12">
+            <div class="process-box text-sm-left mb-0">
+              <span class="pro-step d-inline-block"
+                ><i class="fa fa-award"></i
+              ></span>
+              <h5
+                class="font-weight-normal color-black mt-25px mb-15px text-capitalize"
+              >
+                completion
+              </h5>
+              <p class="font-weight-normal">
+                Pellentesque habitant morbi tristique senectus et malesuada.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="bg-light-gray footer-transform-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 text-center">
+            <p class="copyrights px-0 py-5">
+              © 2024 Xeedev. All Rights Reserved
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="vendor/js/bundle.min.js"></script>
+
+    <!-- Plugin Js -->
+    <script src="vendor/js/jquery.fancybox.min.js"></script>
+    <script src="vendor/js/owl.carousel.min.js"></script>
+    <script src="vendor/js/swiper.min.js"></script>
+    <script src="vendor/js/jquery.cubeportfolio.min.js"></script>
+    <script src="vendor/js/jquery.appear.js"></script>
+    <script src="vendor/js/parallaxie.min.js"></script>
+    <script src="vendor/js/wow.min.js"></script>
+    <script src="vendor/js/select2.min.js"></script>
+    <!-- Slick JS File -->
+    <script src="vendor/js/slick.min.js"></script>
+
+    <!-- REVOLUTION JS FILES -->
+    <script src="vendor/js/jquery.themepunch.tools.min.js"></script>
+    <script src="vendor/js/jquery.themepunch.revolution.min.js"></script>
+    <!-- SLIDER REVOLUTION EXTENSIONS -->
+    <script src="vendor/js/extensions/revolution.extension.actions.min.js"></script>
+    <script src="vendor/js/extensions/revolution.extension.carousel.min.js"></script>
+    <script src="vendor/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script src="vendor/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script src="vendor/js/extensions/revolution.extension.migration.min.js"></script>
+    <script src="vendor/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script src="vendor/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script src="vendor/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script src="vendor/js/extensions/revolution.extension.video.min.js"></script>
+
+    <!-- Google Map Api -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgIfLQi8KTxTJahilcem6qHusV-V6XXjw"></script>
+    <script src="consulting/js/maps.min.js"></script>
+
+    <!--contact form-->
+    <script src="vendor/js/contact_us.js"></script>
+
+    <!-- custom script -->
+    <script src="consulting/js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,215 @@
+/* ***************************** */
+/* 1350 / 16 = 83 (83 * 16 = 1328) */
+/* BELOW 1328px (Smaller Desktops) */
+/* ***************************** */
+@media (max-width: 83em) {
+  .heading-tertiary {
+    font-size: 2rem;
+  }
+
+  .service-content p {
+    font-size: 1rem;
+  }
+}
+
+/* ***************************** */
+/* BELOW 1200px (Landscape Tablets) */
+/* ***************************** */
+@media (max-width: 75em) {
+  html {
+    font-size: 75%;
+  }
+
+  .heading-secondary {
+    font-size: 2rem;
+  }
+
+  .global-footprint {
+    font-size: 1.1rem;
+  }
+
+  .service-title {
+    font-size: 1.2rem;
+  }
+}
+
+/* ***************************** */
+/* BELOW 1032px (Landscape Tablets) */
+/* ***************************** */
+@media (max-width: 65em) {
+  html {
+    font-size: 65%;
+  }
+
+  .global-footprint {
+    font-size: 1.2rem;
+  }
+
+  .service-title {
+    font-size: 1.2rem;
+  }
+
+  .heading-tertiary {
+    font-size: 2.5rem;
+  }
+
+  .heading-secondary {
+    font-size: 2.5rem;
+  }
+
+  .sub-heading {
+    font-size: 1.2rem;
+  }
+
+  .experience-txt {
+    font-size: 1.5rem;
+  }
+
+  .experience-text {
+    font-size: 1.7rem;
+  }
+}
+
+/* ***************************** */
+/* BELOW 983px (Landscape Tablets) */
+/* ***************************** */
+@media (max-width: 61em) {
+  html {
+    font-size: 60%;
+  }
+
+  .grid--3-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .service-title {
+    font-size: 1.4rem;
+  }
+
+  .global-footprint {
+    font-size: 1.3rem;
+  }
+
+  .heading-tertiary {
+    font-size: 2.5rem;
+  }
+
+  .heading-secondary {
+    font-size: 2.5rem;
+  }
+
+  .sub-heading {
+    font-size: 1.2rem;
+  }
+
+  /* .exp-icon {
+    margin-bottom: 0.4rem;
+  } */
+
+  .experience-txt {
+    font-size: 1.5rem;
+  }
+
+  .experience-text {
+    font-size: 1.7rem;
+  }
+
+  .experience-content {
+    gap: 0rem;
+  }
+
+  .service-content p {
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+
+  .service-title {
+    font-size: 1.4rem;
+  }
+}
+
+/* ***************************** */
+/* BELOW 813px (Tablets) */
+/* ***************************** */
+@media (max-width: 50em) {
+  .heading-secondary {
+    font-size: 2.5rem;
+  }
+
+  .heading-tertiary {
+    font-size: 2.5rem;
+  }
+
+  .sub-heading {
+    font-size: 1.2rem;
+  }
+
+  /* .exp-icon {
+    margin-bottom: 0.4rem;
+  } */
+
+  .experience-content {
+    gap: 0rem;
+  }
+
+  .experience-txt {
+    font-size: 1.5rem;
+  }
+}
+
+/* ***************************** */
+/* BELOW 697px */
+/* ***************************** */
+@media (max-width: 43em) {
+  .grid--3-cols {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ***************************** */
+/* BELOW 630px */
+/* ***************************** */
+
+@media (max-width: 39em) {
+  .experience-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .experience-content {
+    gap: 0.09rem;
+  }
+}
+
+/* ***************************** */
+/* BELOW 323px */
+/* ***************************** */
+
+@media (max-width: 20em) {
+  .experience-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* .service-title {
+    font-size: 0.9rem;
+  } */
+
+  .service-content p {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+
+  .service-title {
+    font-size: 1.4rem;
+  }
+}
+
+/* ***************************** */
+/* BELOW 270px */
+/* ***************************** */
+
+@media (max-width: 16em) {
+  .service-content p {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+}

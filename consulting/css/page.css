@@ -1,0 +1,62 @@
+/* html {
+  font-size: 62.5%;
+} */
+
+.display {
+  display: flex;
+}
+
+.link:link,
+.link:visited {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #000000;
+  padding: 0.25rem 0 0;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  text-transform: uppercase;
+}
+
+.link:hover,
+.link:active {
+  color: #fbc212;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  background-color: #000000;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 2rem 2rem;
+}
+
+.section-content {
+  margin-top: 120px;
+}
+
+.nav {
+  padding: 15px;
+}
+
+.testimonial-link:link,
+.testimonial-link:visited {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #000000;
+  padding: 0.25rem 0 0;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  text-transform: uppercase;
+}
+
+.testimonial-link:hover,
+.testimonial-link:active {
+  color: #ffffff;
+}
