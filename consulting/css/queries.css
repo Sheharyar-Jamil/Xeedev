@@ -41,9 +41,9 @@
 /* BELOW 1032px (Landscape Tablets) */
 /* ***************************** */
 @media (max-width: 65em) {
-  html {
+  /* html {
     font-size: 65%;
-  }
+  } */
 
   .global-footprint {
     font-size: 1.2rem;
@@ -82,9 +82,9 @@
 /* BELOW 983px (Landscape Tablets) */
 /* ***************************** */
 @media (max-width: 61em) {
-  html {
+  /* html {
     font-size: 60%;
-  }
+  } */
 
   .grid--3-cols {
     grid-template-columns: repeat(2, 1fr);
