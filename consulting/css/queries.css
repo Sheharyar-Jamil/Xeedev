@@ -35,6 +35,11 @@
   .service-content p {
     font-size: 1.2rem;
   }
+
+  .request-heading {
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
 }
 
 /* ***************************** */
