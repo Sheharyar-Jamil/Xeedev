@@ -221,3 +221,24 @@
     font-weight: 600;
   }
 }
+
+/* Below 700px */
+
+@media (max-width: 700px) {
+  .portfolio-img {
+    height: 185px;
+  }
+}
+
+/* Below 549px */
+@media (max-width: 549px) {
+  .portfolio-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 371px) {
+  .portfolio-grid {
+    grid-template-columns: 1fr;
+  }
+}
